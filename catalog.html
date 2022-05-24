@@ -100,23 +100,19 @@
 
 
     <!-- ----------------------Стоимость, ₽:------------------------------------------------------------------- -->
-                    <section class="main-inner-price">
-                        <p>Стоимость, ₽:</p>
-                        <div id="polzunok"></div>
-                        <b>Значение ползунка: <span style="color:green" id="result-polzunok"></span></b>
-                        <script>
-                            $("#polzunok").slider({
-                                animate: "slow",
-                                range: true,    
-                                values: [ 10, 65 ],
-                                slide : function(event, ui) {    
-                                    $("#result-polzunok").text( "от " + ui.values[ 0 ] + " до " + ui.values[ 1 ] );        
-                                }
-                            });
-                            $( "#result-polzunok" ).text("от " + $("#polzunok").slider("values", 0) + " до " + $("#polzunok").slider("values", 1));
-                            </script>
-
-                    </section>
+                    <fieldset class="catalog-filter-price">
+                        <legend class="catalog-filter-title">Стоимость, &#8381;:</legend>
+                        <input class="price-input" type="number" name="min-price" value="0" placeholder="от" aria-label="минимальная стоимость">
+                        <input class="price-input" type="number" name="max-price" value="9000" placeholder="до" aria-label="максимальная стоимость">
+                        <div class="price-slider">
+                            <div class="range">
+                            <div class="active-range">
+                                <div class="slider-circle left-circle"></div>
+                                <div class="slider-circle right-circle"></div>
+                            </div>
+                            </div>
+                        </div>
+                    </fieldset>
 
                     <button class="main-inner-button" type="button">Применить</button>
                     <button class="main-inner-button" type="button">Сбросить</button>
@@ -278,7 +274,7 @@
 <!-- --------------------------------------------------FOOTER------------------------------------------------------------- -->  	  
 		<footer>
 			<section class="footer-social">
-				<h2 class="page-footer-title">Давайте дружить</h2>
+				
 				<ul class="footer-social-list">
 	
 					<li class="footer-social-item">
