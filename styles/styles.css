@@ -1,3 +1,136 @@
-body {
-    background-color: tomato;
+
+
+/* Подлючение шрифтов */
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
   }
+  
+  
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+
+
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: #F2F2F2;
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  
+  }
+/* ------------------------------------------Скрытые элементы----------------------------------------------------- */
+.visually-hidden {
+  visibility: hidden;
+}
+  /* ------------------------------------------HEADER----------------------------------------------------- */
+
+
+.page-header {
+  background-color: #FFFFFF;
+  height: 65px;
+  margin-bottom: 0;
+}
+
+.navigation {
+
+}
+
+
+.navigation-item {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+  text-align: center;
+  
+}
+
+.navigation-user {
+  
+}
+
+.navigation-link {
+  color: #000000;
+  text-decoration: none;
+
+}
+
+.navigation-list, navigation-user {
+  list-style-type: none;
+  
+}
+
+.navigation-user {
+
+
+}
+
+  
+
+.navigation-user > .navigation-link-search {
+  background: url(/images/search.svg);
+}
+
+
+/* ------------------------------------------------------MAIN---------------------------------------------------------- */
+
+.welcome {
+  background-image: url(/images/index-background.jpg);
+  height: 485px;
+}
+
+
+.welcome-item {
+  background-color: #FFFFFF;
+  height: 282px;
+}
+
+
+/* ------------------------------------------------------Блоки списка---------------------------------------------------------- */
+
+
+.main-town {
+  height: 1535px;
+}
+
+.real-town {
+  background-color: #82B3D3;
+ 
+}
+
+
+.advantage-block {
+  width: 400px;
+  height: 384px;
+}
+
+.town-inside-digs {
+  background-color: rgba(131, 179, 211, 0.12);
+
+}
+
+.town-inside-food {
+  background-color: rgba(131, 179, 211, 0.12);
+
+}
+
+.town-inside-souvenir {
+
+}
