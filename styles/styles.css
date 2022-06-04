@@ -31,6 +31,7 @@ body {
   margin: 0;
   padding: 0;
   width: 1200px;
+  box-shadow: 0 0 10px black;
   
   }
 /* ------------------------------------------Скрытые элементы----------------------------------------------------- */
@@ -181,8 +182,8 @@ body {
 /*------------------------------------------------------Подпишитесь----------------------------------------------------------*/
 .main-distribution {
 	background-image: url("/images/background.jpg");
-  /* height: 411px; */
-  background-size: 100% auto;
+  height: 411px;
+  
   background-repeat: no-repeat;
 }
 
