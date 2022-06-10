@@ -229,11 +229,16 @@ body {
 }
 
 
- /* ------------------------------------------button----------------------------------------------------- */
+ /* ------------------------------------------Убираем поддчеркивание и меняем цвет ссылки----------------------------------------------------- */
  .navigation-link {
   color: #000000;
   text-decoration: none;
  }
+
+ .footer-phone {
+  color: #000000;
+  text-decoration: none;
+}
 
   /* ------------------------------------------Графика в CSS----------------------------------------------------- */
 .page-header {
@@ -309,5 +314,9 @@ background-color: rgba(131, 179, 211, 0.12);
 /*------------------------------------------------------Убираем маркеры у списков----------------------------------------------------------*/
 .navigation-list, .navigation-user, .advantage-list, .town-list-inside, .advantage-list-addition-list, .main-footer-list, .menu-list, .catalog-filter-list, .type-housing-filter-list, .hotel-list, .hotel-star, .hotel-pagination {
   list-style-type: none;
+}
+
+.main-inner-infrastructure, .type-housing, .catalog-filter-price{
+  border:0 none;
 }
 
