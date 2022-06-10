@@ -106,7 +106,7 @@ body {
   }
 
 .advantages-number, .advantage-text {
-  font-size: 18px;
+  
   line-height: 21px;
   font-weight: 400;
   text-align: center;
@@ -200,7 +200,7 @@ body {
 }
 
 .hotel-total {
-  font-size: 18px;
+  
   line-height: 21px;
   font-weight: 400;
   color: #000000;
@@ -230,25 +230,80 @@ body {
 
 
  /* ------------------------------------------button----------------------------------------------------- */
+ .navigation-link {
+  color: #000000;
+  text-decoration: none;
+ }
+
+  /* ------------------------------------------Графика в CSS----------------------------------------------------- */
+.page-header {
+  background-color: #FFFFFF;
+}
+
+.welcome {
+  background-image: url("/images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.main-sedona {
+  background-color: #FFFFFF;
+}
+
+.advantage-box {
+text-align: center;
+}
 
 
-  /* ------------------------------------------HEADER----------------------------------------------------- */
+.blue-box {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
 
+.light-blue-box {
+background-color: rgba(131, 179, 211, 0.12);
 
+}
 
+.white-box {
+  background-color: #FFFFFF;
+}
 
+.shadowy-blue-box {
+  background-color: rgba(131, 179, 211, 0.2);
+}
 
+.main-interested {
+  background-color: #FFFFFF;
+}
 
+.main-distribution {
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 
+.main-inner-distribution-light {
+  background-color: #FFFFFF;
+}
 
+.main-footer {
+  background-color: #FFFFFF;
+}
 
+.main-inner-hotels {
+  background-image: url("/images/filter.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 
+.main-inner-search {
+  background-color: #FFFFFF;
+}
 
-/* ------------------------------------------------------MAIN---------------------------------------------------------- */
-
-
-/* ------------------------------------------------------Блоки списка---------------------------------------------------------- */
-
+.hotel-rating {
+  background-color: #F2F2F2;
+}
 
 
 /*------------------------------------------------------Убираем маркеры у списков----------------------------------------------------------*/
@@ -256,25 +311,3 @@ body {
   list-style-type: none;
 }
 
-/*------------------------------------------------------li 2----------------------------------------------------------*/
-
-/*------------------------------------------------------li 3----------------------------------------------------------*/
-
-
-/*------------------------------------------------------Заинтересовались?----------------------------------------------------------*/
-
-
-/*------------------------------------------------------Подпишитесь----------------------------------------------------------*/
-
-
-/*--------------------------------------------------FOOTER-------------------------------------------------------------*/
-
-
-
-/*--------------------------------------------------Каталог-------------------------------------------------------------*/
-
-
-
-
-
-/*--------------------------------------------------FOOTER-------------------------------------------------------------*/
