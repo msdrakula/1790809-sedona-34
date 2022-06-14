@@ -11,7 +11,7 @@
   }
   
   
-  @font-face {
+@font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
@@ -30,19 +30,16 @@ body {
   line-height: 24px;
   margin: 0;
   padding: 0;
-  /* width: 1200px;
-  box-shadow: 0 0 10px black; */
+
   }
 
 
 
   /* ------------------------------------------Шрифты у всех классов----------------------------------------------------- */
   .navigation {
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    text-transform: capitalize;
     text-align: center;
     list-style-type: none;
   }
