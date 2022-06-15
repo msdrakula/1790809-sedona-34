@@ -109,10 +109,6 @@ body {
     text-align: center;
 }
 
-.main-interested-distribution {
-    color: #ffffff;
-}
-
 .main-distribution-slogan {
     font-size: 30px;
     line-height: 36px;
@@ -144,6 +140,8 @@ body {
     line-height: 40px;
     font-weight: 400;
     text-align: center;
+    color: #000000;
+    text-decoration: none;
 }
 
 .catalog-filter {
@@ -226,18 +224,30 @@ body {
     color: #000000;
 }
 
-.advantages-number-black {
-    color: #000000;
-}
-
 .main-interested-distribution {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
     text-align: center;
-    color: #000000;
     text-transform: uppercase;
 }
+
+.hotel-card-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.hotel-pagination-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.pagination-link-current {
+    color: #000000;
+    text-decoration: none;
+}
+
 
 /* ------Скрытые элементы------- */
 
@@ -249,11 +259,6 @@ body {
 /* ----Убираем поддчеркивание и меняем цвет ссылки----- */
 
 .navigation-link {
-    color: #000000;
-    text-decoration: none;
-}
-
-.footer-phone {
     color: #000000;
     text-decoration: none;
 }
@@ -318,13 +323,10 @@ body {
 }
 
 .main-inner-hotels {
+    background-color: #154f6a;
     background-image: url("/images/filter.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
-}
-
-.main-inner-search {
-    background-color: #FFFFFF;
+    background-size: cover;
 }
 
 .hotel-rating {
@@ -380,6 +382,7 @@ body {
 
 .main-inner-infrastructure {
     list-style-type: none;
+    border: 0 none;
 }
 
 
@@ -390,9 +393,5 @@ body {
 }
 
 .catalog-filter-price {
-    border: 0 none;
-}
-
-.main-inner-infrastructure {
     border: 0 none;
 }
