@@ -43,6 +43,9 @@ body {
     line-height: 26px;
     text-align: center;
     list-style-type: none;
+    display: flex;
+    width: 866px;
+    margin: 0 auto;
 }
 
 .buttons {
