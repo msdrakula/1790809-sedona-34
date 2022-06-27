@@ -17,6 +17,9 @@
 }
 
 /* Задний фон за сайтом */
+html {
+    height: 100%;
+}
 
 .main-header {
     background-color: #F2F2F2;
@@ -31,12 +34,17 @@ body {
     margin: 0 auto;
     padding: 0;
     max-width: 1200px;
+    min-height: 100%;
     box-shadow: 0 0 10px #000000;
+    display: flex;
+    flex-direction: column;
 }
 
+.main-container {
+    flex-grow: 1;
+}
 
-/* ------Шрифты у всех классов------ */
-
+/* ------Навигация------ */
 .navigation {
     font-weight: 700;
     font-size: 20px;
@@ -44,9 +52,110 @@ body {
     text-align: center;
     list-style-type: none;
     display: flex;
-    width: 866px;
+    width: 1200px;
     margin: 0 auto;
 }
+
+.header-logo {
+    margin-right: 30px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    width: 390px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-user {
+    width: 264px;
+    margin-left: auto;
+}
+
+/* ------Блок седона 5 причин------ */
+.welcome-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.main-description {
+    width: 620px;
+    padding-top: 63px;
+    padding-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cause {
+    width: 654px;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* ------причины------ */
+
+.main-town {
+    margin-top: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.advantage-list-town {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px; 
+}
+
+.size-box {
+    width: 400px;
+    min-height: 384px;
+}
+
+.town-list-inside {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.blue-box {
+    background-color: #82B3D3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------Шрифты у всех классов------ */
+
+
+
 
 .buttons {
     font-size: 16px;
@@ -89,12 +198,7 @@ body {
     text-transform: uppercase;
 }
 
-.cause {
-    font-size: 22px;
-    line-height: 26px;
-    font-weight: 400;
-    text-align: center;
-}
+
 
 .advantages-title {
     font-size: 24px;
@@ -102,6 +206,7 @@ body {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    color: #000000;
 }
 
 .advantages-number {
@@ -112,6 +217,7 @@ body {
     line-height: 21px;
     font-weight: 400;
     text-align: center;
+    color: #000000;
 }
 
 .main-distribution-slogan {
@@ -271,8 +377,16 @@ body {
 
 /* ----Графика в CSS---- */
 
+.welcome-image {
+    display: block;
+    margin: 0 auto;
+}
+
 .page-header {
     background-color: #FFFFFF;
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
 }
 
 .welcome {
@@ -286,14 +400,9 @@ body {
     background-color: #FFFFFF;
 }
 
-.advantage-box {
-    text-align: center;
-}
 
-.blue-box {
-    background-color: #82B3D3;
-    color: #FFFFFF;
-}
+
+
 
 .light-blue-box {
     background-color: rgba(131, 179, 211, 0.12);
@@ -325,6 +434,26 @@ body {
 
 .main-footer {
     background-color: #FFFFFF;
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-footer-list {
+    width: 140px;
+    
+}
+
+.footer-phone {
+    width: 331px;
+    
+}
+.footer-academy {
+    width: 115px;
+    
 }
 
 .main-inner-hotels {
@@ -341,17 +470,6 @@ body {
 
 /*------Убираем маркеры у списков---*/
 
-.navigation-list {
-    list-style-type: none;
-}
-
-.navigation-user {
-    list-style-type: none;
-}
-
-.advantage-list {
-    list-style-type: none;
-}
 
 .town-list-inside {
     list-style-type: none;
