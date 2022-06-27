@@ -112,17 +112,22 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 .advantage-list-town {
     display: flex;
     flex-wrap: wrap;
     width: 1200px; 
+    align-items: center;
 }
 
 .size-box {
     width: 400px;
     min-height: 384px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .town-list-inside {
