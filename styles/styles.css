@@ -65,6 +65,9 @@ body {
     width: 390px;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation-user {
@@ -177,11 +180,12 @@ body {
     font-size: 20px;
     line-height: 36px;
     font-weight: 700;
-    text-align: center;
     color: #ffffff;
     background-color: #756157;
     text-decoration: none;
     text-transform: uppercase;
+    width: 574px;
+    
 }
 
 .buttons-big-mailing {
@@ -231,24 +235,16 @@ body {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+
 }
 
-.main-interested-text {
-    font-size: 22px;
-    line-height: 26px;
-    font-weight: 400;
-    text-align: center;
-}
+
 
 .main-distribution-text {
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
     text-align: center;
-}
-
-.main-distribution {
-    color: #ffffff;
 }
 
 .footer-phone {
@@ -340,13 +336,7 @@ body {
     color: #000000;
 }
 
-.main-interested-distribution {
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-}
+
 
 .hotel-card-title {
     font-size: 24px;
@@ -392,6 +382,8 @@ body {
     display: flex;
     width: 1060px;
     margin: 0 auto;
+    height: 65px;
+    padding: 0;
 }
 
 .welcome {
@@ -399,6 +391,8 @@ body {
     background-image: url("/images/index-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    width: 1200px;
+    height: 485px;
 }
 
 .main-sedona {
@@ -420,17 +414,59 @@ body {
 .shadowy-blue-box {
     background-color: rgba(131, 179, 211, 0.2);
 }
-
+/*---- Заинтересовались---- */
 .main-interested {
-    background-color: #FFFFFF;
-    text-align: center;
+    height: 417px;
+    margin: 0 auto;
+    /* display: flex; */
+    border: 1 solid tomato;
+    /* flex-direction: column;
+    justify-content: space-around; */
+    /* align-self: flex-end; */
+    
 }
+
+.main-interested-distribution {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 279px;
+    border: 1 solid tomato;
+    
+}
+
+.main-interested-text {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 592px;
+    border: 1 solid tomato;
+    
+}
+
+.main-interested-button {
+    
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 574px;
+    border: 1 solid tomato;
+}
+
 
 .main-distribution {
     background-image: url("/images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     text-align: center;
+    height: 411px;
+    width: 1200px;
+    color: #ffffff;
 }
 
 .main-inner-distribution-light {
@@ -441,6 +477,7 @@ body {
     background-color: #FFFFFF;
     display: flex;
     width: 1060px;
+    height: 120px;
     margin: 0 auto;
     
     justify-content: space-between;
